@@ -1,0 +1,21 @@
+.graph__date {
+  margin: 0;
+  margin-bottom: 56px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  list-style-type: none;
+}
+
+.graph__date:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .graph__date {
+    margin-bottom: 24px;
+  }
+}

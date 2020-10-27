@@ -1,0 +1,11 @@
+.graph__dates {
+  margin: 0;
+  width: 104px;
+  padding-left: 0;  
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .graph__dates {
+    width: 77px;
+  }
+}

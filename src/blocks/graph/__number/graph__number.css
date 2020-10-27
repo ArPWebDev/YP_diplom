@@ -1,0 +1,27 @@
+.graph__number {
+  margin: 0;
+  margin-right: 263px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #b6bcbf;
+}
+
+.graph__number:first-child {
+  padding-left: 104px;
+}
+
+.graph__number:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .graph__number {
+    margin-right: 128px;
+  }
+}
+
+

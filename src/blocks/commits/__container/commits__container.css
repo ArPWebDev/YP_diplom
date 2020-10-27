@@ -1,0 +1,22 @@
+.commits__container {
+  margin: auto;
+  padding-bottom: 80px;
+  width: 1232px;
+  height: 500px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .commits__container {
+    width: 688px;
+    height: 422px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .commits__container {
+    width: 288px;
+    height: 568px;
+    padding-bottom: 0;
+  }
+}

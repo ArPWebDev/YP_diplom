@@ -1,0 +1,16 @@
+.footer__link {
+  margin: 0;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__link {
+    font-size: 18px;
+    line-height: 48px;
+  }
+}

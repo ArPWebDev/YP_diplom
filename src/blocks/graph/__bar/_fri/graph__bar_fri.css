@@ -1,0 +1,15 @@
+.graph__bar_fri {
+  width: 528px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .graph__bar_fri {
+    width: 369px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .graph__bar_fri {
+    width: 135px;
+  }
+}

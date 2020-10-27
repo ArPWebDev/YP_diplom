@@ -1,0 +1,11 @@
+@import url("./__container/commits__container.css");
+@import url("./__heading/commits__heading.css");
+@import url("./__link-button/commits__link-button.css");
+@import url("./__button/commits__button.css");
+@import url("./__cell/commits__cell.css");
+@import url("./__link-to-github/commits__link-to-github.css");
+@import url("./__title/commits__title.css");
+
+.commits {
+  background: #f5f6f7;
+}

@@ -1,0 +1,36 @@
+.description__paragraph {
+  margin: 0;
+  width: 815px;
+  margin-bottom: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}
+
+.description__paragraph:last-child {
+  margin-bottom: 0;
+  padding-bottom: 94px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .description__paragraph {
+    width: 688px;
+    margin-bottom: 16px;
+  }
+  .description__paragraph:last-child {
+    padding-bottom: 55px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .description__paragraph {
+    width: 288px;
+    margin-bottom: 16px;
+  }
+  .description__paragraph:last-child {
+    padding-bottom: 35px;
+  }
+}

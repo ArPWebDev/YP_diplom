@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Артем Петров" />
+    <meta name="description" content="NewsAnalyzer - это отличный сервис для того, чтобы быть в курсе событий и получать аналитику новостей."/>
+    <title>About</title>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.main.css %>">
+    <link href="<%=htmlWebpackPlugin.files.favicon%>" type="image/png" rel="shortcut icon">
+  </head>
+  <body>
+    <div class="root">
+
+      <header class="header">
+        <div class="header__container">
+          <a href="./index.html" class="link header__logo header__logo_theme_dark">NewsAnalyzer</a>
+          <a href="./index.html" class="link header__link-main header__link-main_theme_dark">Главная</a>
+          <a href="./about.html" class="link header__link-about header__link-about_theme_dark header__link-about_theme_about">О проекте</a>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="description">
+          <div class="description__container">
+            <h2 class="description__title">Клиентам</h2>
+            <p class="description__paragraph">
+              Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель —
+              показать, чему научился студент, и какими технологиями владеет.
+            </p>
+            <p class="description__paragraph">
+              Вёртска сайта выполнена по методологии БЭМ. Это делает сайт гибким
+              и масштабируемым. Кроме того, добавлять новые страницы и
+              функциальность проще и быстрее, чем в проектах, выполненных по
+              другим методологиям. Также сайт проще и дешевле поддерживать.
+            </p>
+            <p class="description__paragraph">
+              Карточки с новостям приходят с сервера и обрабатываются асихронно.
+              То есть сайт продолжает работать, пока от сервера приходит ответ.
+              Это повышает удобство использования сервиса.
+            </p>
+            <p class="description__paragraph">
+              При создании проекта была использона сборка технологией Webpack.
+              Это современных подход к разработке сайтов. Код оптимизируется, а
+              значит, сайт работает быстрее. Также настроена сайт работает в
+              старых браузерах. Даже если посетители — пользователи старых
+              операционных систем у них не будет проблем с отображением. А
+              значит потенциальная аудитория возрастает.
+            </p>
+            <p class="description__paragraph">
+              Проект был проверен экспертами Яндекс.Практикума. И если вашему
+              бизесу нужен сайт, мы рекомендуем обратиться к этому студенту.
+            </p>
+          </div>
+        </section>
+
+        <section class="technologies">
+          <div class="technologies__container">
+            <h2 class="technologies__title">Используемые технологии</h2>
+            <div class="technologies__icons">
+              <div class="technologies__icon">
+                <p class="technologies__icon-title">CSS</p>
+                <img src="<%=require('../images/html-min.png').default%>" alt="иконка html3" class="technologies__icon-img"/>
+              </div>
+              <div class="technologies__icon">
+                <p class="technologies__icon-title">HTML</p>
+                <img src="<%=require('../images/css-min.png').default%>" alt="иконка css5" class="technologies__icon-img"/>
+              </div>
+              <div class="technologies__icon">
+                <p class="technologies__icon-title">Java Script</p>
+                <img src="<%=require('../images/js-min.png').default%>" alt="иконка js" class="technologies__icon-img"/>
+              </div>
+              <div class="technologies__icon">
+                <p class="technologies__icon-title">Webpack</p>
+                <img src="<%=require('../images/webpack-min.png').default%>" alt="иконка webpack" class="technologies__icon-img"/>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about">
+          <div class="about__container">
+            <img src="<%=require('../images/author.png').default%>" alt="фотография автора сайта" class="about__photo" />
+            <div class="about__description">
+              <h2 class="about__title">Об авторе</h2>
+              <p class="about__text">
+                Меня зовут Артем, я начинающий web-разработчик. На данный момент мой стак технологий и навыков очень далек, от уровня
+                матерого middle или senior web-разработчика, но я продолжаю учиться. Я относительно неплохо(по крайней мере я так думаю:))
+                освоил: HTML5, CSS3, JS, систему контроля версий Git, кроссбраузерную и адаптивную верстку, а также сборщик Webpack.
+              </p>
+              <p class="about__text">
+                В ходе обучения на курсе Яндекс Практикума, для изучения вышеописанных технологий я выполнял различные проекты, с которыми вы можете ознакомиться в моем 
+                профиле на GitHub. Если я вас заинтересовал, как потенциальный соискатель, то милости прошу в личные сообщения VK. Ссылочки на GitHub и VK внизу 	&#9660;
+              </p>
+            </div>
+          </div>
+        </section>
+      
+
+        <section class="commits">
+
+          <div class="commits__container">
+            <div class="commits__heading">
+              <h2 class="commits__title">История коммитов из GitHub</h2>
+              <a href="https://github.com/Artem74Arp" class="link commits__link-to-github" target="_blank">Открыть в Github ></a>
+            </div>
+
+            <div class="commits__slider" data-flickity>
+
+              <div class="commits__cell">
+                <div class="commit">
+                  <p class="commit__date">14 августа, 2019</p>
+                  <div class="commit__profile">
+                    <img src="<%=require('../images/marie.png').default%>" alt="аватар автора коммита" class="commit__photo"/>
+                    <div class="commit__info">
+                      <p class="commit__name">Мария Фёдорова</p>
+                      <p class="commit__email">mariiifed@yandex.ru</p>
+                    </div>
+                  </div>
+                  <p class="commit__text">
+                    You can install this plugin directly from NetBeans Plugin
+                    Portal: in NetBeans, open Tools > Plugins > Available plugins
+                    and find and install Emmet plugin.
+                  </p>
+                </div>
+              </div>
+
+              <div class="commits__cell">
+                <div class="commit">
+                  <p class="commit__date">14 августа, 2019</p>
+                  <div class="commit__profile">
+                    <img src="<%=require('../images/marie.png').default%>" alt="аватар автора коммита" class="commit__photo"/>
+                    <div class="commit__info">
+                      <p class="commit__name">Мария Фёдорова</p>
+                      <p class="commit__email">mariiifed@yandex.ru</p>
+                    </div>
+                  </div>
+                  <p class="commit__text">
+                    You can install this plugin directly from NetBeans Plugin
+                    Portal: in NetBeans, open Tools > Plugins > Available plugins
+                    and find and install Emmet plugin.
+                  </p>
+                </div>
+              </div>
+
+              <div class="commits__cell">
+                <div class="commit">
+                  <p class="commit__date">14 августа, 2019</p>
+                  <div class="commit__profile">
+                    <img src="<%=require('../images/marie.png').default%>" alt="аватар автора коммита" class="commit__photo"/>
+                    <div class="commit__info">
+                      <p class="commit__name">Мария Фёдорова</p>
+                      <p class="commit__email">mariiifed@yandex.ru</p>
+                    </div>
+                  </div>
+                  <p class="commit__text">
+                    You can install this plugin directly from NetBeans Plugin
+                    Portal: in NetBeans, open Tools > Plugins > Available plugins
+                    and find and install Emmet plugin.
+                  </p>
+                </div>
+              </div>
+
+              <div class="commits__cell">
+                <div class="commit">
+                  <p class="commit__date">14 августа, 2019</p>
+                  <div class="commit__profile">
+                    <img src="<%=require('../images/marie.png').default%>" alt="аватар автора коммита" class="commit__photo"/>
+                    <div class="commit__info">
+                      <p class="commit__name">Мария Фёдорова</p>
+                      <p class="commit__email">mariiifed@yandex.ru</p>
+                    </div>
+                  </div>
+                  <p class="commit__text">
+                    You can install this plugin directly from NetBeans Plugin
+                    Portal: in NetBeans, open Tools > Plugins > Available plugins
+                    and find and install Emmet plugin.
+                  </p>
+                </div>
+              </div>
+
+              <div class="commits__cell">
+                <div class="commit">
+                  <p class="commit__date">14 августа, 2019</p>
+                  <div class="commit__profile">
+                    <img src="<%=require('../images/marie.png').default%>" alt="аватар автора коммита" class="commit__photo"/>
+                    <div class="commit__info">
+                      <p class="commit__name">Мария Фёдорова</p>
+                      <p class="commit__email">mariiifed@yandex.ru</p>
+                    </div>
+                  </div>
+                  <p class="commit__text">
+                    You can install this plugin directly from NetBeans Plugin
+                    Portal: in NetBeans, open Tools > Plugins > Available plugins
+                    and find and install Emmet plugin.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <form action="https://www.github.com/dubandrun" class="commits__link-button" target="_blank">
+              <button class="commits__button">Открыть в Github</button>
+            </form>
+
+          </div>
+        </section>
+
+      </main>
+      
+      <footer class="footer">
+        <div class="footer__container">
+          <p class="footer__copyrights">&copy; 2020 Supersite</p>
+          <nav class="footer__nav">
+            <ul class="footer__links">
+              <li class="footer__nav-link"><a href="./index.html" class="link footer__link">Главная</a></li>
+              <li class="footer__nav-link"><a href="./about.html" class="link footer__link">О проекте</a></li>
+              <li class="footer__nav-link"><a href="https://praktikum.yandex.ru" class="link footer__link" target="_blank">Яндекс.Практикум</a></li>
+            </ul>
+          </nav>
+          <div class="footer__icons">
+            <a href="https://github.com/Artem74Arp" class="link footer__icon" target="_blank">
+              <img src="<%=require('../images/gh-min.png').default%>" alt="иконка github" class="footer__social"/>
+            </a>
+            <a href="https://vk.com/id50282080" class="link footer__icon" target="_blank">
+              <img src="<%=require('../images/vk-min.png').default%>" alt="иконка vk" class="footer__social"/>
+            </a>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+    
+  </body>
+</html>

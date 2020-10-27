@@ -1,0 +1,18 @@
+.commits__button {
+  width: 288px;
+  height: 56px;
+  background: #F5F6F7;
+  border: 1px solid #1A1B22;
+  outline: none;
+  border-radius: 80px;
+  cursor: pointer;
+  padding: 0;
+  width: 288px;
+  min-height: 56px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}

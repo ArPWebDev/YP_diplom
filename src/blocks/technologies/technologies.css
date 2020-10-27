@@ -1,0 +1,10 @@
+@import url("./__container/technologies__container.css");
+@import url("./__icon-img/technologies__icon-img.css");
+@import url("./__icon-title/technologies__icon-title.css");
+@import url("./__icon/technologies__icon.css");
+@import url("./__icons/technologies__icons.css");
+@import url("./__title/technologies__title.css");
+
+.technologies {
+  background: #f5f6f7;
+}

@@ -1,0 +1,15 @@
+.results__loader-text {
+  width: 280px;
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 178px;
+  padding-bottom: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+}

@@ -1,0 +1,14 @@
+.graph__numbers {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.graph__numbers:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .graph__numbers {
+    display: none;
+  }
+}

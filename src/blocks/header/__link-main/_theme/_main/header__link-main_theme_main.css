@@ -1,0 +1,8 @@
+.header__link-main_theme_main {
+  height: 80px;
+  line-height: 80px;
+  background-image: linear-gradient(to right, #fff 100%, transparent 0);
+  background-position: 0 77px;
+  background-repeat: repeat-x;
+  background-size: 68px 3px;
+}

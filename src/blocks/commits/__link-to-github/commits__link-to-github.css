@@ -1,0 +1,23 @@
+.commits__link-to-github {
+  margin: 0;
+  width: 161px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .commits__link-to-github {
+    width: 161px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .commits__link-to-github {
+    display: none;
+  }
+}
