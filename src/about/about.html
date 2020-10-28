@@ -7,18 +7,16 @@
     <meta name="author" content="Артем Петров" />
     <meta name="description" content="NewsAnalyzer - это отличный сервис для того, чтобы быть в курсе событий и получать аналитику новостей."/>
     <title>About</title>
-    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.main.css %>">
-    <link href="<%=htmlWebpackPlugin.files.favicon%>" type="image/png" rel="shortcut icon">
   </head>
   <body>
     <div class="root">
 
       <header class="header">
-        <div class="header__container">
+        <nav class="header__nav">
           <a href="./index.html" class="link header__logo header__logo_theme_dark">NewsAnalyzer</a>
           <a href="./index.html" class="link header__link-main header__link-main_theme_dark">Главная</a>
           <a href="./about.html" class="link header__link-about header__link-about_theme_dark header__link-about_theme_about">О проекте</a>
-        </div>
+        </nav>
       </header>
 
       <main class="content">
@@ -232,7 +230,6 @@
 
     </div>
 
-    <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
     
   </body>
 </html>

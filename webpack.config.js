@@ -9,13 +9,13 @@ const isDev = process.env.NODE_ENV === "development";
 
 module.exports = {
   entry: {
-    main: "./src/index.js",
-    about: "./src/about/index.js",
-    analytics: "./src/analytics/index.js",
+    index: "./src/index.js",
+    about: "./src/about/about.js",
+    analytics: "./src/analytics/analytics.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[name]/[name].[chunkhash].js" 
+    filename: "js/[name].[chunkhash].js" 
   },
   module: {
     rules: [
@@ -52,7 +52,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name]/[name].[contenthash].css", //  filename: "[name].[contenthash].css",
+      filename: "css/[name].[contenthash].css", //  filename: "[name].[contenthash].css",
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
@@ -63,20 +63,23 @@ module.exports = {
       canPrint: true,
     }),
     new HtmlWebpackPlugin({
-      inject: false,
+      inject: true,
       template: "./src/index.html",
+      chunks: ['index'],
       filename: "index.html",
       favicon: "./src/images/favicon.png"
     }),
     new HtmlWebpackPlugin({
-      inject: false,
+      inject: true,
       template: "./src/about/about.html",
+      chunks: ['about'],
       filename: "about.html",
       favicon: "./src/images/favicon.png"
     }),
     new HtmlWebpackPlugin({
-      inject: false,
+      inject: true,
       template: "./src/analytics/analytics.html",
+      chunks: ['analytics'],
       filename: "analytics.html",
       favicon: "./src/images/favicon.png"
     }),
