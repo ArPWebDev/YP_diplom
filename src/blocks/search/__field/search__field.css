@@ -1,0 +1,19 @@
+.search__field {
+  position: relative;
+  width: 608px;
+  padding-left: 312px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .search__field {
+    width: 448px;
+    padding-left: 120px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .search__field {
+    width: 288px;
+    padding-left: 0;
+  }
+}

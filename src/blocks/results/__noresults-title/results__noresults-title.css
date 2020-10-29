@@ -1,0 +1,18 @@
+.results__noresults-title {
+  width: 356px;
+  margin: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1a1b22;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .results__noresults-title {
+    width: 254px;
+  }
+}

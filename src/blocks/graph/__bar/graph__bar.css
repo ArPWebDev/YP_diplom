@@ -1,0 +1,22 @@
+.graph__bar {
+  margin-bottom: 56px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  color: #fff;
+  background: #2f71e5;
+}
+
+.graph__bar:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .graph__bar {
+    margin-bottom: 24px;
+  }
+}

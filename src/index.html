@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Артем Петров"/>
+  <meta name="description" content="NewsAnalyzer - это отличный сервис для того, чтобы быть в курсе событий и получать аналитику новостей."/>
+  <title>NewsAnalyzer</title>
+</head>
+<body>
+  <div class="root">
+    
+    <main class="content">
+    
+      <section class="search">
+        <header class="header">
+          <nav class="header__nav">
+            <a href="./index.html" class="link header__logo header__logo_theme_light">NewsAnalyzer</a>
+            <a href="./index.html" class="link header__link-main header__link-main_theme_light header__link-main_theme_main">Главная</a>
+            <a href="./about.html" class="link header__link-about header__link-about_theme_light">О проекте</a>
+          </nav>
+        </header>
+
+        <div class="search__container">
+          <h1 class="search__title">Что в мире творится?</h1>
+          <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+          <form class="search__field">
+            <input type="text" class="search__input" placeholder="Природа" pattern="^[a-zA-Zа-яА-ЯЁё0-9]+$" minlength="2" maxlength="20" required>
+            <button class="search__button">Искать</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="results">
+        <div class="results__container">
+          <div class="results__loader hidden">
+            <div class="results__img-loader"></div>
+            <p class="results__loader-text">Идет поиск новостей...</p>
+          </div>
+          <div class="results__news">
+            <div class="results__heading">
+              <h2 class="results__title">Результаты поиска</h2>
+              <a href="./analytics.html" class="link results__link-to-analytics">Посмотреть аналитику ></a>
+            </div>
+            <div class="results__news-list">
+              <div class="news-card">
+                <img src="<%=require('./images/image_08-min.png').default%>" alt="обложка новости" class="news-card__image">
+                <p class="news-card__date">2 августа, 2020</p>
+                <h3 class="news-card__title">Национальное достояние - парки</h3>
+                <p class="news-card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                <p class="news-card__source">Лента.ру</p>
+              </div>
+              <div class="news-card">
+                <img src="<%=require('./images/image_08-min.png').default%>" alt="обложка новости" class="news-card__image">
+                <p class="news-card__date">2 августа, 2020</p>
+                <h3 class="news-card__title">Национальное достояние - парки</h3>
+                <p class="news-card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                <p class="news-card__source">Лента.ру</p>
+              </div>
+              <div class="news-card">
+                <img src="<%=require('./images/image_08-min.png').default%>" alt="обложка новости" class="news-card__image">
+                <p class="news-card__date">2 августа, 2020</p>
+                <h3 class="news-card__title">Национальное достояние - парки</h3>
+                <p class="news-card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                <p class="news-card__source">Лента.ру</p>
+              </div>
+            </div>
+            <button class="results__button">Показать еще</button>
+          </div>
+          <div class="results__noresults hidden">
+            <img src="<%=require('./images/not-found_v1.png').default%>" alt="новости не найдены" class="results__img-noresults">
+            <p class="results__noresults-title">Ничего не найдено</p>
+            <p class="results__noresults-text">К сожалению, по вашему запросу ничего не найдено</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__container">
+          <img src="<%=require('./images/author.png').default%>" alt="фотография автора сайта" class="about__photo">
+          <div class="about__description">
+            <h2 class="about__title">Об авторе</h2>
+            <p class="about__text">
+              Меня зовут Артем, я начинающий web-разработчик. На данный момент мой стак технологий и навыков очень далек, от уровня
+              матерого middle или senior web-разработчика, но я продолжаю учиться. Я относительно неплохо(по крайней мере я так думаю:))
+              освоил: HTML5, CSS3, JS, систему контроля версий Git, кроссбраузерную и адаптивную верстку, а также сборщик Webpack.
+            </p>
+            <p class="about__text">
+              В ходе обучения на курсе Яндекс Практикума, для изучения вышеописанных технологий я выполнял различные проекты, с которыми вы можете ознакомиться в моем 
+              профиле на GitHub. Если я вас заинтересовал, как потенциальный соискатель, то милости прошу в личные сообщения VK. Ссылочки на GitHub и VK внизу 	&#9660;
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <p class="footer__copyrights">&copy; 2020 Supersite</p>
+        <nav class="footer__nav">
+          <ul class="footer__links">
+            <li class="footer__nav-link"><a href="./index.html" class="link footer__link">Главная</a></li>
+            <li class="footer__nav-link"><a href="./about.html" class="link footer__link">О проекте</a></li>
+            <li class="footer__nav-link"><a href="https://praktikum.yandex.ru" class="link footer__link" target="_blank">Яндекс.Практикум</a></li>
+          </ul>
+        </nav>
+        <div class="footer__icons">
+          <a href="https://github.com/Artem74Arp" class="link footer__icon" target="_blank">
+            <img src="<%=require('./images/gh-min.png').default%>" alt="иконка github" class="footer__social">
+          </a>
+          <a href="https://vk.com/id50282080" class="link footer__icon" target="_blank">
+            <img src="<%=require('./images/vk-min.png').default%>" alt="иконка vk" class="footer__social">
+          </a>
+        </div>
+      </div>
+    </footer>
+  
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.footer__copyrights {
+  margin: 0;
+  margin-right: 234px;
+  width: 200px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #b6bcbf;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .footer__copyrights {
+    margin-right: 30px;
+    width: 142px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__copyrights {
+    position: absolute;
+    bottom: 22px;
+    width: 142px;
+    margin-right: 0;
+  }
+}

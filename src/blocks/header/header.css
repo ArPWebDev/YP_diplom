@@ -1,0 +1,18 @@
+@import url("./__nav/header__nav.css");
+@import url("./__link-about/header__link-about.css");
+@import url("./__link-about/_theme/_about/header__link-about_theme_about.css");
+@import url("./__link-about/_theme/_dark/header__link-about_theme_dark.css");
+@import url("./__link-about/_theme/_light/header__link-about_theme_light.css");
+@import url("./__link-about/_theme/_analytics/header__link-about_theme_analytics.css");
+@import url("./__logo/header__logo.css");
+@import url("./__logo/_theme/_dark/header__logo_theme_dark.css");
+@import url("./__logo/_theme/_light/header__logo_theme_light.css");
+@import url("./__link-main/header__link-main.css");
+@import url("./__link-main/_theme/_main/header__link-main_theme_main.css");
+@import url("./__link-main/_theme/_light/header__link-main_theme_light.css");
+@import url("./__link-main/_theme/_dark/header__link-main_theme_dark.css");
+
+.header {
+  border-bottom: 2px solid rgba(158, 153, 153, 0.2);
+}
+

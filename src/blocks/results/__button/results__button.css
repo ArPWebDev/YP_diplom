@@ -1,0 +1,41 @@
+.results__button {
+  padding: 0;
+  margin-left: 472px;
+  margin-bottom: 80px;
+  width: 288px;
+  height: 64px;
+  border-radius: 80px;
+  border: none;
+  outline: none;
+  background: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  cursor: pointer;
+}
+
+.results__button:hover {
+  opacity: .9;
+  transition: .5s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .results__button {
+    width: 240px;
+    height: 56px;
+    margin-left: 232px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .results__button {
+    width: 288px;
+    height: 56px;
+    margin-left: 0;
+    margin-bottom: 44px;
+  }
+}

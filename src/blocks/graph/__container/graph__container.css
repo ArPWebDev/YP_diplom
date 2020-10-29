@@ -1,0 +1,19 @@
+.graph__container {
+  margin: auto;
+  width: 1232px;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .graph__container {
+    width: 688px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .graph__container {
+    width: 288px;
+    padding-bottom: 38px;
+  }
+}

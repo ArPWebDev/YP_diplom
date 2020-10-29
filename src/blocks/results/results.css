@@ -1,0 +1,18 @@
+@import url("./__container/results__container.css");
+@import url("./__news/results__news.css");
+@import url("./__noresults/results__noresults.css");
+@import url("./__noresults-title/results__noresults-title.css");
+@import url("./__noresults-text/results__noresults-text.css");
+@import url("./__img-noresults/results__img-noresults.css");
+@import url("./__loader/results__loader.css");
+@import url("./__img-loader/results__img-loader.css");
+@import url("./__loader-text/results__loader-text.css");
+@import url("./__button/results__button.css");
+@import url("./__heading/results__heading.css");
+@import url("./__link-to-analytics/results__link-to-analytics.css");
+@import url("./__news-list/results__news-list.css");
+@import url("./__title/results__title.css");
+
+.results {
+  background-color: #f5f6f7;
+}

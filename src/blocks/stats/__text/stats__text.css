@@ -1,0 +1,38 @@
+.stats__text {
+  margin: 0;
+  margin-bottom: 4px;
+  width: 712px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}
+
+.stats__text:last-child {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .stats__text {
+    width: 688px;
+  }
+
+  .stats__text:last-child {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .stats__text {
+    width: 288px;
+  }
+
+  .stats__text:last-child {
+    margin-bottom: 0;
+    padding-bottom: 24px;
+  }
+}

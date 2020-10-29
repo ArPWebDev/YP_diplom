@@ -1,0 +1,19 @@
+.graph__heading-date {
+  margin: 0;
+  width: 91px;
+  margin-right: 13px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #b6bcbf;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .graph__heading-date {
+    width: 64px;
+  }
+}

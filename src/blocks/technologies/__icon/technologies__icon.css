@@ -1,0 +1,8 @@
+.technologies__icon {
+  width: 120px;
+  margin-right: 22px;
+}
+
+.technologies__icon:last-child {
+  margin-right: 0;
+}
