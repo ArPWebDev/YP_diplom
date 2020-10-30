@@ -17,7 +17,9 @@
 @media screen and (min-width: 768px) and (max-width: 1250px) {
   .about__text {
     width: 424px;
-    margin-bottom: 0;
+  }
+  .about__text:last-child {
+    padding-bottom: 66px;
   }
 }
 

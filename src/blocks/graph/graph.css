@@ -1,6 +1,5 @@
 @import url("./__container/graph__container.css");
 @import url("./__bar/graph__bar.css");
-@import url("./__bar-num/graph__bar-num.css");
 @import url("./__bars/graph__bars.css");
 @import url("./__date/graph__date.css");
 @import url("./__dates/graph__dates.css");
@@ -12,13 +11,6 @@
 @import url("./__numbers/graph__numbers.css");
 @import url("./__title/graph__title.css");
 @import url("./__area/graph__area.css");
-@import url("./__bar/_fri/graph__bar_fri.css");
-@import url("./__bar/_mon/graph__bar_mon.css");
-@import url("./__bar/_sat/graph__bar_sat.css");
-@import url("./__bar/_sun/graph__bar_sun.css");
-@import url("./__bar/_thu/graph__bar_thu.css");
-@import url("./__bar/_tue/graph__bar_tue.css");
-@import url("./__bar/_wed/graph__bar_wed.css");
 
 .graph {
   background: #f5f6f7;

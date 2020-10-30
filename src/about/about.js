@@ -1,21 +1,31 @@
 import "./about.css";
 
-function sliderSettings() {
-    const Flickity = require('flickity');
-    const elem = document.querySelector(".commits__slider");
-    const flkty = new Flickity(elem, {
-      cellAlign: "center",
-      wrapAround: true,
-      arrowShape: {
-        x0: 20,
-        x1: 50,
-        y1: 30,
-        x2: 55,
-        y2: 25,
-        x3: 30,
-      },
-      percentPosition: false,
-    });
-}
+import {
+  GIT_USER,
+  GIT_REPO,
+  GIT_COMMITS_PER_PAGE,
+  COMMITS_SLIDER,
+  COMMITS,
+  COMMITS_ERROR,
+  COMMITS_CONTAINER,
+} from "../js/constants/constants";
 
-sliderSettings();
+import GithubApi from "../js/modules/githubapi";
+import CommitCardList from "../js/components/commitcardlist";
+import CommitCard from "../js/components/commitcard";
+
+const GITHUB_API = new GithubApi(GIT_USER, GIT_REPO, GIT_COMMITS_PER_PAGE);
+GITHUB_API.getCommits();
+
+const COMMIT_CARD = new CommitCard();
+
+const COMMITCARD_LIST = new CommitCardList(
+  COMMITS_CONTAINER,
+  COMMITS_SLIDER,
+  GITHUB_API,
+  COMMIT_CARD,
+  COMMITS,
+  COMMITS_ERROR
+);
+COMMITCARD_LIST.getCommits();
+

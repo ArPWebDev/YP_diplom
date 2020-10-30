@@ -18,8 +18,8 @@
 }
 
 .results__button:hover {
-  opacity: .9;
-  transition: .5s;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1250px) {

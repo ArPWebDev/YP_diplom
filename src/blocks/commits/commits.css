@@ -1,5 +1,7 @@
 @import url("./__container/commits__container.css");
+@import url("./__error/commits__error.css");
 @import url("./__heading/commits__heading.css");
+@import url("./__slider/commits__slider.css");
 @import url("./__link-button/commits__link-button.css");
 @import url("./__button/commits__button.css");
 @import url("./__cell/commits__cell.css");

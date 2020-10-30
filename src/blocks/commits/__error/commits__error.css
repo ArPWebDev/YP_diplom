@@ -1,0 +1,28 @@
+.commits__error {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 859px;
+  text-align: center;
+  padding-top: 110px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .commits__error {
+    width: 652px;
+    padding-top: 135px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .commits__error {
+    width: 286px;
+    padding-top: 40px;
+  }
+}

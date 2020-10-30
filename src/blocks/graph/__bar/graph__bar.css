@@ -1,5 +1,7 @@
 .graph__bar {
   margin-bottom: 56px;
+  padding-left: 6px;
+  width: 10px;
   height: 24px;
   font-family: Roboto;
   font-style: normal;
@@ -15,8 +17,17 @@
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .graph__bar {
+    min-width: 10px;
+    max-width: 578px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .graph__bar {
+    min-width: 10px;
     margin-bottom: 24px;
+    max-width: 205px;
   }
 }
