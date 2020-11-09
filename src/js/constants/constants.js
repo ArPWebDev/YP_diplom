@@ -2,7 +2,7 @@
 export const RESULTS_NEWS_LIST = document.querySelector(".results__news-list");
 export const SEARCH_FIELD = document.forms.search;
 export const INPUT = document.querySelector(".search__input");
-export const NEWSAPI_TOKEN = "895f25960690476badf65c335ed72ba8"
+export const NEWSAPI_TOKEN = "895f25960690476badf65c335ed72ba8";
 export const RESULTS = document.querySelector(".results");
 export const STORAGE_DATA = "news";
 export const NEWS_IMG = document.querySelector(".news-card__image");
@@ -15,7 +15,7 @@ export const COUNTER_PLUS = 3;
 export const ERROR_IMAGE = "https://cs8.pikabu.ru/post_img/big/2016/02/04/7/145458292112119207.jpg";
 
 ///Страница О проекте
-export const GIT_USER = "Artem74Arp";
+export const GIT_USER = "ArPWebDev";
 export const GIT_REPO = "YP_diplom";
 export const GIT_COMMITS_PER_PAGE = 20;
 export const COMMITS_SLIDER = document.querySelector(".commits__slider");

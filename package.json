@@ -1,5 +1,5 @@
 {
-  "name": "yp_diplom.github.io",
+  "name": "YP_diplom",
   "version": "1.0.0",
   "description": "Дипломный проект курса фронтенд-разработчика от яндекс практикума.",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Artem74Arp/YP_diplom.github.io.git"
+    "url": "git+https://github.com/ArPWebDev/YP_diplom.git"
   },
   "author": "Artem Petrov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Artem74Arp/YP_diplom.github.io/issues"
+    "url": "https://github.com/ArPWebDev/YP_diplom/issues"
   },
-  "homepage": "https://github.com/Artem74Arp/YP_diplom.github.io#readme",
+  "homepage": "https://github.com/ArPWebDev/YP_diplom#readme",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
