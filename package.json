@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Artem74Arp/YP_diplom.git"
+    "url": "git+https://github.com/ArPWebDev/YP_diplom.git"
   },
   "author": "Artem Petrov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Artem74Arp/YP_diplom/issues"
+    "url": "https://github.com/ArPWebDev/YP_diplom/issues"
   },
-  "homepage": "https://github.com/Artem74Arp/YP_diplom#readme",
+  "homepage": "https://github.com/ArPWebDev/YP_diplom#readme",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
