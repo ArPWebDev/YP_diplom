@@ -16,8 +16,8 @@ export const ERROR_IMAGE = "https://cs8.pikabu.ru/post_img/big/2016/02/04/7/1454
 
 ///Страница О проекте
 export const GIT_USER = "Artem74Arp";
-export const GIT_REPO = "YP_diplom.github.io";
-export const GIT_COMMITS_PER_PAGE = 2;
+export const GIT_REPO = "YP_diplom";
+export const GIT_COMMITS_PER_PAGE = 20;
 export const COMMITS_SLIDER = document.querySelector(".commits__slider");
 export const COMMITS = document.querySelector(".commits");
 export const COMMITS_ERROR = document.querySelector(".commits__error");

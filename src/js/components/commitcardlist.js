@@ -35,8 +35,8 @@ export default class CommitCardList {
     .then((res) => {
       for (let array of res) {
         const commitTemplate = this.commitCard.create(
-          getFormatedDateForCards(array.commit.committer.date), 
-          array.author.avatar_url, 
+          getFormatedDateForCards(array.commit.committer.date),
+          array.author.avatar_url,
           array.commit.committer.name, 
           array.commit.committer.email, 
           array.commit.message,
